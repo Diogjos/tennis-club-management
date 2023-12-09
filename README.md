@@ -5,6 +5,9 @@
  
 - Diogo José do Nascimento Silva : 01559424
 - Rhyan Carlos da silva Lima : 01539352
+- Breno Almeida Custodio : 01527793
+- Luís Gustavo de Albuquerque- 01515839
+- Zaque Neves - 01529166
 ### About
 
 It is a tennis club management website that identifies, adds, deletes and updates athlete information (CRUD)
