@@ -61,3 +61,22 @@ a:link, a:visited {
   text-align:center;
   color:#375BDC;
 }
+
+.footer-content {
+  position: fixed;
+  bottom: 0;
+  background-color: #375BDC;
+  left: 0;
+  width: 100%;
+  padding: 10px; 
+  text-align: center;
+}
+
+strong{
+  color: #ffffff;
+}
+
+.meio{
+  margin: 70px;
+  
+}

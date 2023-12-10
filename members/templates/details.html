@@ -1,13 +1,20 @@
 {% extends "master.html" %}
 
 {% block title %}
-  Details about {{ mymember.firstname }} {{ mymember.lastname }}
+  Details about {{ membro.nome }} {{ membro.sobrenome }}
 {% endblock %}
 
 {% block content %}
   <div class="mycard">
-    <h1>{{ mymember.firstname }} {{ mymember.lastname }}</h1>
-    <p>Phone {{ mymember.phone }}</p>
-    <p>Member since: {{ mymember.joined_date }}</p>
+    <h1>{{ membro.nome }} {{ membro.sobrenome }}</h1>
+    <p>Idade: {{ membro.idade }}</p>
+    <p>Número: {{ membro.numero }}</p>
+    <p>Email: {{ membro.email }}</p>
+    <p>Data de Entrada: {{ membro.dataEntrada }}</p>
+    <p>Identificação de Membro: {{ membro.numeroMembro }}</p>
+    <p>Categoria: {{ membro.categoria }}</p>
+    <p>Quantidade de Vitórias: {{ membro.vitorias }}</p>
+    <P>Quandade de Derrotas: {{ membro.derrotas }}</P>
+    <p>Desenpenho: {{membro.desenpenho}}</p>
   </div>
 {% endblock %}  
